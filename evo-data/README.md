@@ -44,11 +44,3 @@ See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rule
 4. npm run dev
 5. Open url in browser
 
-## Project Structure
-
-evo-data/\
-├── src/\
-   ├── App.tsx      # Main component \
-   ├── App.css      # Styling\
-   ├── index.css    # Global styles\
-   └── main.tsx      # React entry point\
