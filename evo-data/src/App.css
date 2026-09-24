@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #f4f5f7;
+  color: #1a1a1a;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #d0d3d9;
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input[type="text"]:focus {
+  border-color: #4f7cff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+thead {
+  background: #f0f1f4;
+}
+
+th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #6b7280;
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #eceef1;
+  font-size: 0.95rem;
+}
+
+tbody tr:hover {
+  background: #f8f9fb;
+}
+
+/* workaround before changing index.css
+Change Later */
+/* tr[style*="cursor: pointer"]:hover {
+  background: #eef1ff;
+} */
+
+
+/* Perma fix for hovering
+.clickable-row Changes cursor to hand 
+.clickable-row:hover ensure background change */
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background: #eef1ff;
+}
+
+td div {
+  background: #f8f9fb;
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+}
+
+td div p {
+  margin: 0.35rem 0;
+  font-size: 0.9rem;
+}
+
+td div strong {
+  color: #4f5461;
+}
