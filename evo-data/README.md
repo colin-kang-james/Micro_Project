@@ -45,5 +45,10 @@ TO RUN:
 5. Open url in browser
 
 ######################
-TO RUN:
+Project Structure:
 ######################
+
+src /
+  App.tsx #Main compenent
+  App.css #Styling
+  index.css #Global styling
