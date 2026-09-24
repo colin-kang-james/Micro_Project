@@ -46,9 +46,9 @@ See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rule
 
 ## Project Structure
 
-evo-data/
-├── src/
-   ├── App.tsx      # Main component 
-   ├── App.css      # Styling
-   ├── index.css    # Global styles
-   └── main.tsx      # React entry point
+evo-data/\
+├── src/\
+   ├── App.tsx      # Main component \
+   ├── App.css      # Styling\
+   ├── index.css    # Global styles\
+   └── main.tsx      # React entry point\
