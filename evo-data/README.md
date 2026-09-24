@@ -39,7 +39,7 @@ TO RUN:
 1. clone repo
 2. cd evo-data
 3. make sure you have installed dependencies (npm install)
-   <!-- 3a. if getting an error about fsevents, run npm install-scripts approve fsevents  -->
+   3a. if getting an error about fsevents, run npm install-scripts approve fsevents 
       (after research 3a is unnecessary)
 4. npm run dev
 5. Open url in browser
@@ -48,7 +48,7 @@ TO RUN:
 Project Structure:
 ######################
 
-src /
-  App.tsx #Main compenent
-  App.css #Styling
-  index.css #Global styling
+src/
+  App.tsx      # Main component: fetch, table, search, expandable rows
+  App.css      # Styling
+  index.css    # Global styles
