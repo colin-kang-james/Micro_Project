@@ -36,19 +36,19 @@ See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rule
 TO RUN:
 ######################
 
-1. clone repo
-2. cd evo-data
-3. make sure you have installed dependencies (npm install)
-   3a. if getting an error about fsevents, run npm install-scripts approve fsevents 
-      (after research 3a is unnecessary)
+## To Run
+
+1. Clone the repo
+2. `cd evo-data`
+3. Install dependencies:
+-npm install-
+      If you get an error about `fsevents`, run `npm install-scripts approve fsevents` (after research this fix is unnecessary).
 4. npm run dev
 5. Open url in browser
 
-######################
-Project Structure:
-######################
+##Project Structure
 
 src/
-  App.tsx      # Main component: fetch, table, search, expandable rows
-  App.css      # Styling
-  index.css    # Global styles
+App.tsx # Main component
+App.css # Styling
+index.css # Global styles
