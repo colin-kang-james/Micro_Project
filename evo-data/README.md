@@ -30,3 +30,20 @@ If you are developing a production application, we recommend enabling type-aware
 ```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+
+
+######################
+TO RUN:
+######################
+
+1. clone repo
+2. cd evo-data
+3. make sure you have installed dependencies (npm install)
+   <!-- 3a. if getting an error about fsevents, run npm install-scripts approve fsevents  -->
+      (after research 3a is unnecessary)
+4. npm run dev
+5. Open url in browser
+
+######################
+TO RUN:
+######################
